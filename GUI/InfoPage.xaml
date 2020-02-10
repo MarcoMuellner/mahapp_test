@@ -7,17 +7,17 @@
              xmlns:local="clr-namespace:GUI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="500">
-    <UserControl.Resources>
+    <!--<UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! -->
+                --><!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! --><!--
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <!-- Accent and AppTheme setting -->
+                --><!-- Accent and AppTheme setting --><!--
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-    </UserControl.Resources>
+    </UserControl.Resources>-->
     <Grid Name="GridInfoMain" Background="#404040">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

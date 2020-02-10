@@ -12,6 +12,12 @@
                 <!-- Accent and AppTheme setting -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            
+            <!-- Define our Style here -->
+            <Style TargetType="TextBlock" BasedOn="{StaticResource MahApps.Styles.TextBlock}">
+                <Setter Property="Foreground" Value="{DynamicResource MahApps.Brushes.Accent}" />
+            </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>
